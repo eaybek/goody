@@ -2,7 +2,7 @@ from turtle import *
 
 color("red", "yellow")
 begin_fill()
-while True:
+for i in range(1000):
     forward(200)
     left(170)
     if abs(pos()) < 1:
