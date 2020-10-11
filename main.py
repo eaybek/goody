@@ -3,7 +3,7 @@ from turtle import *
 color("red", "grey")
 begin_fill()
 for i in range(1000):
-    forward(200)
+    forward(400)
     left(175)
     if abs(pos()) < 1:
         break
